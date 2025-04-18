@@ -36,6 +36,10 @@ function RecentPosts() {
         title="Buenos Aires in the rhythm of tango"
         body="I loved it!"
       />
+      <Post
+        title="Buenos Aires in the rhythm of tango"
+        body="I loved it!"
+      />
     </Section>
   );
 }
