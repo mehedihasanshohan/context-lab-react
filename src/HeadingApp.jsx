@@ -22,6 +22,11 @@ export default function HeadingApp() {
               <Heading>Sub-sub-sun-heading</Heading>
               <Heading>Sub-sub-sun-heading</Heading>
               <Heading>Sub-sub-sun-heading</Heading>
+              <Section level={6}>
+                <Heading>Sub-sub-sub-sub-heading</Heading>
+                <Heading>Sub-sub-sub-sub-heading</Heading>
+                <Heading>Sub-sub-sub-sub-heading</Heading>
+              </Section>
             </Section>
           </Section>
         </Section>
