@@ -1,8 +1,8 @@
 import { useContext } from 'react';
-import { LevelContext } from './context/LevelContext';
+import { ProfileContext } from './context/ProfileContext';
 
-export default function Section({ children, isFancy }) {
-  const level = useContext(LevelContext);
+export default function ProfileSection({ children, isFancy }) {
+  const level = useContext(ProfileContext);
   return (
     <section className={
       'section ' +

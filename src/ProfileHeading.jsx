@@ -1,8 +1,8 @@
 import { useContext } from 'react';
-import { LevelContext } from './context/LevelContext';
+import { ProfileContext } from './context/ProfileContext';
 
-export default function Heading({ children }) {
-  const level = useContext(LevelContext);
+export default function ProfileHeading({ children }) {
+  const level = useContext(ProfileContext);
   switch (level) {
     case 0:
       throw Error('Heading must be inside a Section!');

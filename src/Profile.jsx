@@ -1,8 +1,8 @@
-import Heading from './Heading.jsx';
-import Section from './Section.jsx';
-import '../src/styles.css'
+import Heading from '../src/ProfileHeading.jsx';
+import Section from '../src/ProfileSection.jsx';
+import '../src/profileStyles.css'
 
-export default function ProfilePage() {
+export default function Profile() {
   return (
     <Section>
       <Heading>My Profile</Heading>
